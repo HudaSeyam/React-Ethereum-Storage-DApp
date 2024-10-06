@@ -10,7 +10,18 @@ This DApp uses the Ethereum blockchain and allows users to store and retrieve va
 - Interact with the smart contract via a web interface.
 - Use Ganache for a personal blockchain to simulate Ethereum network.
 - Run automated tests against the smart contract using Truffle.
+  
+## PowerPoint Presentation
 
+For a detailed overview of how the application works, please refer to the PowerPoint presentation that demonstrates the DApp setup and functionality:  
+[Blockchain Development Kit - PowerPoint](https://www.slideshare.net/slideshow/blockchain-development-kitpptx/258277340)
+
+## Project Structure
+- **contracts/**: Contains the Solidity contracts (Storage.sol).
+- **migrations/**: Contains the migration scripts for deploying the contracts.
+- **test/**: Contains the test files for the smart contracts.
+- **src/**: The frontend code for interacting with the contract via a web interface.
+  
 ## Prerequisites
 
 Before you begin, make sure you have the following installed on your machine:
@@ -23,7 +34,7 @@ Before you begin, make sure you have the following installed on your machine:
 3. **Ganache**: A personal blockchain for Ethereum development. You can download the desktop version or install the CLI version.
 4. **MetaMask**: An Ethereum wallet extension for Google Chrome that allows you to interact with the DApp.
 
-5. ## Getting Started
+## Getting Started
 
 Follow these steps to set up and run the Simple Storage DApp locally.
 
@@ -67,5 +78,19 @@ truffle migrate
 ```
 - truffle compile: Compiles the Solidity contract (Storage.sol).
 - truffle migrate: Deploys the contract to the blockchain (in this case, Ganache).
+  
+### 6. Running Tests
 
+Run the automated tests to verify that the smart contract works as expected:
+```bash
+truffle test
+```
+### 7. Interacting with the Smart Contract
 
+You can interact with the smart contract using a web interface. The web interface allows users to store and retrieve values from the contract.
+- First, ensure you have MetaMask connected to the local Ganache blockchain.
+- Run the React Development Server:
+  This will run the React development server, and the app will be available at http://localhost:3000.
+  ```bash
+   npm start
+  ```
