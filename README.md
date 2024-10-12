@@ -1,4 +1,4 @@
-# Simple Storage Decentralized Application (DApp)
+# React and Ethereum Storage DApp
 
 A basic decentralized application (DApp) that demonstrates how to create, deploy, and interact with a Solidity smart contract on a blockchain. 
 This DApp uses the Ethereum blockchain and allows users to store and retrieve values from the contract.
@@ -42,8 +42,8 @@ Follow these steps to set up and run the Simple Storage DApp locally.
 
 First, clone the project to your local machine:
 ```bash
-git clone https://github.com/your-username/simple-storage-dapp.git
-cd simple-storage-dapp
+git clone https://github.com/HudaSeyam/React-Ethereum-Storage-DApp.git
+cd react-ethereum-storage-dapp
 ```
 ### 2. Install Dependencies
 
